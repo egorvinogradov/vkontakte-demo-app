@@ -1,0 +1,69 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>VK demo</title>
+<script>
+
+	var staticFiles = [
+		'demo.css',
+		'//vk.com/js/api/xd_connection.js',
+		'demo.js'
+	];
+
+	function loadStatic(files){
+		files.forEach(function(file){
+			var tag;
+			var urlAttr;
+			var attrs;
+			if ( /\.js$/i.test(file) ) {
+				tag = 'script';
+				urlAttr = 'src';
+			}
+			else if ( /\.css$/i.test(file) ) {
+				tag = 'link';
+				urlAttr = 'href';
+				attrs = { rel: 'stylesheet' };
+			}
+			if ( tag && urlAttr ) {
+				var element = document.createElement(tag);
+				element[urlAttr] = file + '?' + Math.random();
+				if ( attrs ) {
+					for ( var attr in attrs ) {
+						element[attr] = attrs[attr];
+					}
+				}
+				document.head.appendChild(element);
+			}
+		});
+	};
+
+	window.onload = function(){
+		loadStatic(staticFiles);
+	};
+
+</script>
+</head>
+<body>
+	<div class="app-wrapper">
+		<div class="input-area-wrapper">
+			<div class="input-area">
+				<input id="user_id" placeholder="ID">
+				<button id="user_button">Get friend's friends</button>
+			</div>
+			<button id="get_all_friends" class="vk-button">Get my friends</button>
+		</div>
+		<hr>
+		<div class="all-friends">
+			<!-- all friends -->
+		</div>
+		<hr>
+		<div class="output-area">
+			<textarea id="out_textarea"></textarea>
+		</div>
+		<hr>
+		<div class="console">
+			<textarea id="console_textarea"></textarea>
+		</div>
+	</div>
+</body>
+</html>
