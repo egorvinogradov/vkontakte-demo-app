@@ -1,99 +1,99 @@
 hr {
-	background: #4E7299;
-	height: 1px;
-	border: 0;
-	margin: 15px 0;
-	opacity: .3;
+    background: #4E7299;
+    height: 1px;
+    border: 0;
+    margin: 15px 0;
+    opacity: .3;
 }
 
 input,
 textarea {
-	border: 1px solid #aaa;
-	background: #fff;
-	box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
-	border-radius: 5px;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: inset 0 2px 3px rgba(0,0,0,.1);
+    border-radius: 5px;
 }
 
 input {
-	height: 28px;
+    height: 28px;
 }
 
 textarea {
-	resize: vertical;
+    resize: vertical;
 }
 
 input:focus,
 textarea:focus {
-	border-color: #315680;
-	outline: none;
+    border-color: #315680;
+    outline: none;
 }
 
 button {
-	cursor: pointer;
-	height: 28px;
-	border-radius: 5px;
-	color: #fff;
-	font-weight: bold;
-	padding: 0 10px;
-	box-shadow: inset 0 1px 0 rgba(255,255,255,.3);
-	background-image: linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
-	background-image: -o-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
-	background-image: -moz-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
-	background-image: -webkit-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
-	background-image: -ms-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
-	border: 1px solid #758185;
+    cursor: pointer;
+    height: 28px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    padding: 0 10px;
+    box-shadow: inset 0 1px 0 rgba(255,255,255,.3);
+    background-image: linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
+    background-image: -o-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
+    background-image: -moz-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
+    background-image: -webkit-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
+    background-image: -ms-linear-gradient(bottom, rgb(136,145,148) 3%, rgb(185,189,189) 86%);
+    border: 1px solid #758185;
 }
 
 .app-wrapper {
-	overflow-y: auto;
-	height: 484px;
-	padding-right: 20px;
-	font: 13px/18px Arial, sans-serif;
+    overflow-y: auto;
+    height: 484px;
+    padding-right: 20px;
+    font: 13px/18px Arial, sans-serif;
 }
 
 .input-area-wrapper {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .input-area {
-	float: left;
+    float: left;
 }
 
 .friend-table-label {
-	font-size: 13px;
-	font-weight: bold;
-	background: rgba(90,126,165, .1);
-	border-top: 1px solid rgba(90,126,165, .5);
-	border-bottom: 1px solid rgba(90,126,165, .5);
-	padding: 3px 6px;
-	margin: 25px 0 0 0;
+    font-size: 13px;
+    font-weight: bold;
+    background: rgba(90,126,165, .1);
+    border-top: 1px solid rgba(90,126,165, .5);
+    border-bottom: 1px solid rgba(90,126,165, .5);
+    padding: 3px 6px;
+    margin: 25px 0 0 0;
 }
 
 .friend {
-	width: 100%;
+    width: 100%;
 }
 
 .friend td {
-	font: 13px/18px Arial, sans-serif;
-	height: 60%;
+    font: 13px/18px Arial, sans-serif;
+    height: 60%;
 }
 
 .friend td:first-child {
-	width: 40%;
+    width: 40%;
 }
 
 #out_textarea,
 #console_textarea {
-	width: 100%;
-	height: 150px;
+    width: 100%;
+    height: 150px;
 }
 
 #get_all_friends {
-	float: right;
-	background-image: linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
-	background-image: -o-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
-	background-image: -moz-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
-	background-image: -webkit-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
-	background-image: -ms-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
-	border: 1px solid #315680;
+    float: right;
+    background-image: linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
+    background-image: -o-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
+    background-image: -moz-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
+    background-image: -webkit-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
+    background-image: -ms-linear-gradient(bottom, rgb(67,101,141) 21%, rgb(90,126,165) 87%);
+    border: 1px solid #315680;
 }
