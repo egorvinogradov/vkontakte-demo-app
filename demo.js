@@ -232,23 +232,3 @@ App.prototype = {
 
 var vkDemo = new App();
 vkDemo.initialize();
-
-
-
-
-var table = Array.prototype.map.call(
-    document.querySelectorAll('.wk_sub_header'),
-    function(el){
-        var html =
-            '<tr>' +
-            '<td>' + el.innerHTML + '</td>' +
-            '<td>' + el.nextSibling.nodeValue + '</td>' +
-            '</tr>';
-        return html;
-    }
-);
-
-table.unshift('<table>');
-table.push('</table>');
-table.join('\n');
-
