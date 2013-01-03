@@ -41,7 +41,4 @@ else {
 	}
 }
 
-else {
 
-	jkhjk
-}
